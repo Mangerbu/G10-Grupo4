@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AppRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/AppRecyclerView/app/src/main/res/layout/registro_custom_adapter.xml" value="0.22" />
         <entry key="..\:/Users/Manuel/AndroidStudioProjects/AppRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Manuel/AndroidStudioProjects/AppRecyclerView/app/src/main/res/layout/contacto_custom_adapter.xml" value="0.20416666666666666" />
       </map>

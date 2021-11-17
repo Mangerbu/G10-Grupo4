@@ -42,7 +42,6 @@ public class RegistroAdapter extends RecyclerView.Adapter<RegistroViewHolder> {
         holder.getTxtAltura().setText(registro.getAltura()+"");
         holder.getTxtPeso().setText(registro.getPeso()+"");
         holder.getTxtIMC().setText(registro.getIMC()+"");
-
         ;
     }
 

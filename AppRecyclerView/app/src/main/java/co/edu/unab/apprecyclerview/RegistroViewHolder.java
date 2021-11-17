@@ -16,19 +16,17 @@ public class RegistroViewHolder extends RecyclerView.ViewHolder {
 
     public RegistroViewHolder(@NonNull View itemView) {
         super(itemView);
-        txtNombre = (TextView) itemView.findViewById(R.id.txt_nombre);
-        txtAltura = (TextView) itemView.findViewById(R.id.txt_altura);
-        txtPeso = (TextView) itemView.findViewById(R.id.txt_peso);
-        txtIMC = (TextView) itemView.findViewById(R.id.txt_IMC);
+        txtNombre = (TextView) itemView.findViewById(R.id.txtNombre);
+        txtAltura = (TextView) itemView.findViewById(R.id.txtAltura);
+        txtPeso = (TextView) itemView.findViewById(R.id.txtPeso);
+        txtIMC = (TextView) itemView.findViewById(R.id.txtIMC);
     }
 
-    public TextView getTxtNombre() { return txtNombre; }
+    public TextView getTxtNombre() { return  txtNombre; }
 
     public TextView getTxtAltura() { return txtAltura; }
 
-    public TextView getTxtPeso() {
-        return txtPeso;
-    }
+    public TextView getTxtPeso() { return txtPeso;}
 
     public TextView getTxtIMC() { return txtIMC; }
 
